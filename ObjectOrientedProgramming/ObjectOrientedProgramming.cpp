@@ -4,11 +4,11 @@
 #include <iostream>
 
 class hesapla {
-    private: //Private sadece bu class içine özeldir
+    private: //Private sadece bu class iÃ§ine Ã¶zeldir
         int islemcount;
-    protected: //Protected aynı private gibidir ama başka classlar tarafından erişilebilir
+    protected: //Protected aynÄ± private gibidir ama baÅŸka classlar tarafÄ±ndan eriÅŸilebilir
         float floatsonuc;
-    public: //Public ise herkes tarafından erişilebilir
+    public: //Public ise herkes tarafÄ±ndan eriÅŸilebilir
         int sayi1;
         int sayi2;
         int sonuc;
