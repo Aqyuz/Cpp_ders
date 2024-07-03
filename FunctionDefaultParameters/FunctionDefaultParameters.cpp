@@ -2,7 +2,7 @@
 //
 
 #include <iostream>
-#include <string> //string kullanabilmek için bu kütüphane kullanılmalıdır
+#include <string> //string kullanabilmek iÃ§in bu kÃ¼tÃ¼phane kullanÄ±lmalÄ±dÄ±r
 
 void printmessage(std::string message = "No Message") { std::cout << message << "\n"; } //Not1
 void totalbet(int currentbet ,int inputbet = 0){ std::cout << "Total bet is: " << currentbet + inputbet << "\n"; }
@@ -17,7 +17,7 @@ int main()
 
 /////////////////////////////////////////////////
 // NOTLAR
-// Not1:Fonksiyonların giriş parametrelerine bu şekilde (= işareti kullanıp değer yazılarak) default bir değer girilebilir.
+// Not1:FonksiyonlarÄ±n giriÅŸ parametrelerine bu ÅŸekilde (= iÅŸareti kullanÄ±p deÄŸer yazÄ±larak) default bir deÄŸer girilebilir.
 /////////////////////////////////////////////////
 
 
