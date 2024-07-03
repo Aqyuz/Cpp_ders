@@ -9,7 +9,7 @@ int toplafunction(int sayi1, int sayi2) {return sayi1 + sayi2;}
 int myfunction1(int a, int b,char inputstring1, char inputstring2) {
     std::cout << "---start of the myfunction1--- \n";
     //////////////////////////////////////////////
-    std::cout << toplafunction(a,b); //myfunction1_not1
+    std::cout << toplafunction(a,b) << "\n"; //myfunction1_not1
     int sonuc;
     sonuc = a + b;
     std::cout << "input string 1:" << inputstring1 << "\ninput string 2:" << inputstring2;
