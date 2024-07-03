@@ -69,7 +69,7 @@ void switch_case_function(char a,int sayi1,int sayi2) {
 
 void for_function(int a) {
     for (int i = 0; i < a; i++){
-        std::cout << "Döngü " << i;
+        std::cout << "DÃ¶ngÃ¼ " << i;
     }
 }
 
@@ -162,7 +162,7 @@ void while_function3() {
         std::cout << "Yapacaginiz islemi giriniz(toplama icin +,cikarma icin -, carpma icin *,bolme icin /,basa donmek icin z): " << "\n";
         std::cin >> islem;
 
-        if (islem == 'z' || islem == 'Z') { continue; } //continue komutu döngüyü anında başa döndürür
+        if (islem == 'z' || islem == 'Z') { continue; } //continue komutu dÃ¶ngÃ¼yÃ¼ anÄ±nda baÅŸa dÃ¶ndÃ¼rÃ¼r
 
         switch (islem)
         {
@@ -203,9 +203,9 @@ void while_function4() {
         std::cout << "Yapacaginiz islemi giriniz(+,-,*,/,basa donmek icin z,cikmak icin e,gecmek icin p): " << "\n";
         std::cin >> islem;
 
-        if (islem == 'z' || islem == 'Z') { continue; } //continue komutu döngüyü anında başa döndürür
-        else if (islem == 'e' || islem == 'E') { goto cikis2; } //goto komutu ile döngünün tamamı geçilebilir
-        else if (islem == 'p' || islem == 'P') { goto cikis1; } //goto komutu ile döngüdeki bazı satırlar atlanabilir
+        if (islem == 'z' || islem == 'Z') { continue; } //continue komutu dÃ¶ngÃ¼yÃ¼ anÄ±nda baÅŸa dÃ¶ndÃ¼rÃ¼r
+        else if (islem == 'e' || islem == 'E') { goto cikis2; } //goto komutu ile dÃ¶ngÃ¼nÃ¼n tamamÄ± geÃ§ilebilir
+        else if (islem == 'p' || islem == 'P') { goto cikis1; } //goto komutu ile dÃ¶ngÃ¼deki bazÄ± satÄ±rlar atlanabilir
 
         switch (islem)
         {
@@ -239,7 +239,7 @@ cikis2:
 }
 
 void do_while_function() {
-    int a; //do while komutunda ilk önce kod çalışır sonra şart kontrol edilir. Böylece şart yanlış bile olsa en az 1 kere çalışır.
+    int a; //do while komutunda ilk Ã¶nce kod Ã§alÄ±ÅŸÄ±r sonra ÅŸart kontrol edilir. BÃ¶ylece ÅŸart yanlÄ±ÅŸ bile olsa en az 1 kere Ã§alÄ±ÅŸÄ±r.
     do
     {
         std::cout << "Sayi giriniz(0'dan kucuk olmasi lazim)";
