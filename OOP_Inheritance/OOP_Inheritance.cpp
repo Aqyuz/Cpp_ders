@@ -42,16 +42,16 @@ int main()
 
     /////////////////////////////////////////////////
     // 
-    // not1: sınıfların adının yanına ": public <classismi>" yazarak o sınıfa başka sınıftan metodlar ekleyebiliriz.
+    // not1: sÄ±nÄ±flarÄ±n adÄ±nÄ±n yanÄ±na ": public <classismi>" yazarak o sÄ±nÄ±fa baÅŸka sÄ±nÄ±ftan metodlar ekleyebiliriz.
     // 
-    // not2: Burada AutomaticRifle sınıfından bir AK47 nesnesi oluşturdum ve bir sonraki satırda AutomaticRifle sınıfının...
-    // ...Gun sınıfından aldığı fire() metodunu kullandım.
+    // not2: Burada AutomaticRifle sÄ±nÄ±fÄ±ndan bir AK47 nesnesi oluÅŸturdum ve bir sonraki satÄ±rda AutomaticRifle sÄ±nÄ±fÄ±nÄ±n...
+    // ...Gun sÄ±nÄ±fÄ±ndan aldÄ±ÄŸÄ± fire() metodunu kullandÄ±m.
     // 
-    // not3: Burada da AssaultRifle sınıfından bir AK_47 nesnesi oluşturdum ve bir sonraki satırda da AutomaticRifle sınıfının...
-    // ...Gun sınıfından aldığı fire() metodunu kullandım. Bir sınıf sadece ebeveyninden değil ebeveyninin ebeveyninden de özellik alabilir.
-    // Aynı canlılarda olduğu gibi sınıflar da atasının atasının atasının... atasından aldığı özelliği alabilir.
+    // not3: Burada da AssaultRifle sÄ±nÄ±fÄ±ndan bir AK_47 nesnesi oluÅŸturdum ve bir sonraki satÄ±rda da AutomaticRifle sÄ±nÄ±fÄ±nÄ±n...
+    // ...Gun sÄ±nÄ±fÄ±ndan aldÄ±ÄŸÄ± fire() metodunu kullandÄ±m. Bir sÄ±nÄ±f sadece ebeveyninden deÄŸil ebeveyninin ebeveyninden de Ã¶zellik alabilir.
+    // AynÄ± canlÄ±larda olduÄŸu gibi sÄ±nÄ±flar da atasÄ±nÄ±n atasÄ±nÄ±n atasÄ±nÄ±n... atasÄ±ndan aldÄ±ÄŸÄ± Ã¶zelliÄŸi alabilir.
     // 
-    // BTK C++ Dersinde 6.11, 6.12 ve 6.13 derslerinde constructor-destructor ve pointer ile alakalı dersler var
+    // BTK C++ Dersinde 6.11, 6.12 ve 6.13 derslerinde constructor-destructor ve pointer ile alakalÄ± dersler var
     //
     /////////////////////////////////////////////////
 
