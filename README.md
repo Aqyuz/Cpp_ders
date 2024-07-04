@@ -1,3 +1,3 @@
 C++ öğrenirken aldığım notlar.
 
-[Contribution guidelines for this project](AkisKontrolleri/AkisKontrolleri.cpp)
+[AKIŞ KONTROLLERİ:](AkisKontrolleri/AkisKontrolleri.cpp)
