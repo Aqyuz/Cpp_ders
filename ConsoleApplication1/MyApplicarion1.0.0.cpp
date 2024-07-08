@@ -14,8 +14,8 @@ int myfunction1(int a, int b,char inputstring1, char inputstring2) {
     sonuc = a + b;
     std::cout << "input string 1:" << inputstring1 << "\ninput string 2:" << inputstring2;
     std::cout << "\na+b:" << sonuc << "\n";
-    // myfunction1_not1:Bir fonksiyonun içinde başka bir fonksiyon çağırılabilir ama...
-    // ...yeni bir fonksiyon yazılamaz ve oluşturulamaz
+    // myfunction1_not1:Bir fonksiyonun iÃ§inde baÅŸka bir fonksiyon Ã§aÄŸÄ±rÄ±labilir ama...
+    // ...yeni bir fonksiyon yazÄ±lamaz ve oluÅŸturulamaz
     //////////////////////////////////////////////
     std::cout << "---end of the myfunction1--- \n\n";
     return sonuc;
@@ -125,7 +125,7 @@ char myfunction8() {
     auto n = "merhaba arkadaslar";
     auto o = 0;
     auto u = 5.1;
-    wchar_t v('ş');
+    wchar_t v('Ã¾');
 
     
     std::cout << "size of a(boolean): " << sizeof(a) << "bytes" << "\n";
@@ -143,8 +143,8 @@ char myfunction8() {
     std::cout << "size of n(auto,merhaba arkadaslar): " << sizeof(n) << "bytes" << "\n";
     std::cout << "size of o(auto,0): " << sizeof(o) << "bytes" << "\n";
     std::cout << "size of u(auto,5.1): " << sizeof(u) << "bytes" << "\n";
-    std::cout << "size of v(wchar_t,ş): " << sizeof(v) << "bytes" << "\n";
-    std::cout << "wchar_t v(ş): " << v << "\n";
+    std::cout << "size of v(wchar_t,Ã¾): " << sizeof(v) << "bytes" << "\n";
+    std::cout << "wchar_t v(Ã¾): " << v << "\n";
     
     
     std::cout << "size of boolean: " << sizeof(bool) << "bytes" << "\n";
@@ -178,9 +178,9 @@ void myfunction10() {
     std::cout << "int b (int b(2.5);) =" << b << "\n";
     //std::cout << "int c (int c{ 2.5 };) =" << c << "\n";
     
-    // myfunction10_not1:değişkenler bu şekilde yazıldığında IDE(Visual Studio) değişkenin tür değişiminin daha çok önemser.
-    // Eğer ki bu satır(not1 satırı) açılırsa (comment çizgileri silinip satır çalışır hale gelirse)...
-    // ...program sayıyı yuvarlayıp direkt göstermek yerine bizi uyaracaktır
+    // myfunction10_not1:deÄŸiÅŸkenler bu ÅŸekilde yazÄ±ldÄ±ÄŸÄ±nda IDE(Visual Studio) deÄŸiÅŸkenin tÃ¼r deÄŸiÅŸimini daha Ã§ok Ã¶nemser.
+    // EÃ°er ki bu satÄ±r(not1 satÄ±rÄ±) aÃ§Ä±lÄ±rsa (comment Ã§izgileri silinip satÄ±r Ã§alÄ±ÅŸÄ±r hale gelirse)...
+    // ...program sayÄ±yÄ± yuvarlayÄ±p direkt gÃ¶stermek yerine bizi uyaracaktÄ±r
     //////////////////////////////////////////////
     std::cout << "---end of the myfunction10--- \n\n";
 }
@@ -188,7 +188,7 @@ void myfunction10() {
 void myfunction11() {
     std::cout << "---start of the myfunction11--- \n";
     //////////////////////////////////////////////
-    //bu fonksiyonda değişkenlerin türünü static_cast<>() kullanarak manuel olarak değiştiriyoruz
+    //bu fonksiyonda deÄŸiÅŸkenlerin tÃ¼rÃ¼nÃ¼ static_cast<>() kullanarak manuel olarak deÃ°iÅŸtiriyoruz.
     int a{ 2 };
     float b{ 3.5 };
     char c{ 65 };
@@ -215,7 +215,7 @@ void myfunction11() {
     std::cout << "---end of the myfunction11--- \n\n";
 }
 
-void myfunction12() {  //fonksiyonlarda void ön eki fonskiyonun bir şey çıkarmayacağını haber verir. Yani "return a;" vs yok.
+void myfunction12() {  //fonksiyonlarda void Ã¶n eki fonskiyonun bir ÅŸey Ã§Ä±karmayacaÄŸÄ±nÄ± haber verir. Yani "return a;" vs yok.
     std::cout << "---start of the myfunction12--- \n";
     //////////////////////////////////////////////
     int a(0);
@@ -244,20 +244,20 @@ void myfunction12() {  //fonksiyonlarda void ön eki fonskiyonun bir şey çıkarmay
 
     std::cout << "*&pointerof_c : " << *&pointerof_c << "\n\n";
 
-    // myfunction12_not1: &(ampersand) işareti ile bir değişkenin ram'de tutulduğu yeri(adresini) görebiliriz)
+    // myfunction12_not1: &(ampersand) iÅŸareti ile bir deÄŸiÅŸkenin ram'de tutulduÄŸu yeri(adresini) gÃ¶rebiliriz)
     // 
-    // myfunction12_not2: Bir değişkenin ram'de bulunduğu adres hex biçimi ile gösterilir.
-    // Bir değişkenin ram adresini başka bir değişkene kaydetmek istersek bunu normal bir şekilde yapamayız.
-    // Çünkü hex biçiminde hem sayı hem de harf olabileceği için değişkenin ram adresi normal int ile gösterilemez.
-    // Bu yüzden int'nin yanına * işareti konur.
-    // Bu yeni değişken tipine pointer denir.
-    // Pointer değişkenin tutulduğu adresi gösterir.
+    // myfunction12_not2: Bir deÄŸiÅŸkenin ram'de bulunduÃ°u adres hex biÃ§imi ile gÃ¶sterilir.
+    // Bir deÄŸiÅŸkenin ram adresini baÅŸka bir deÄŸiÅŸkene kaydetmek istersek bunu normal bir ÅŸekilde yapamayÄ±z.
+    // Ã‡Ã¼nkÃ¼ hex biÃ§iminde hem sayÄ± hem de harf olabileceÄŸi iÃ§in deÄŸiÅŸkenin ram adresi normal int ile gÃ¶sterilemez.
+    // Bu yÃ¼zden int'nin yanÄ±na * iÅŸareti konur.
+    // Bu yeni deÄŸiÅŸken tipine pointer denir.
+    // Pointer deÄŸiÅŸkenin tutulduÃ°u adresi gÃ¶sterir.
     // 
-    // myfunction12_not3:Bu üç kullanım da aynıdır. IDE bu üçünü de aynı şekilde görür.
+    // myfunction12_not3:Bu Ã¼Ã§ kullanÄ±m da aynÄ±dÄ±r. IDE bu Ã¼Ã§Ã¼nÃ¼ de aynÄ± ÅŸekilde gÃ¶rÃ¼r.
     // 
-    // myfunction12_not4: Bir pointer değişkeninin soluna * işareti koyarak o pointerin gösterdiği adresdeki gerçek değeri bulabiliriz.
+    // myfunction12_not4: Bir pointer deÄŸiÅŸkeninin soluna * iÅŸareti koyarak o pointerin gÃ¶sterdiÄŸi adresdeki gerÃ§ek deÄŸeri bulabiliriz.
     // 
-    // myfunction12_not5:Bir değişkenin ram adresini bulduğumuz gibi pointerlerin de ram adresini aynı şekilde(soluna & koyarak) bulabiliriz.
+    // myfunction12_not5:Bir deÃ°iÅŸkenin ram adresini bulduÄŸumuz gibi pointerlerin de ram adresini aynÄ± ÅŸekilde(soluna & koyarak) bulabiliriz.
     // 
     //////////////////////////////////////////////
     std::cout << "---end of the myfunction12--- \n\n";
@@ -270,7 +270,7 @@ int main(){
     char testchar1;
     char charstring1[] = "merhabaaa\n";
     char sixcharstring1[6] = "hello";
-    char sixcharstring2[7] = "hello\n"; //boşluk ve satır atlama gibi şeyler de yer kaplar
+    char sixcharstring2[7] = "hello\n"; //boÅŸluk ve satÄ±r atlama gibi ÅŸeyler de yer kaplar
     std::cout << charstring1;
     testchar1 = sayi1 + sayi2;
     sonuc = sayi1 + sayi2;
